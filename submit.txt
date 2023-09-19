@@ -3,7 +3,7 @@ socket.socket(family, type)
 family is the address family such as IPv4 and IPv6
 type is the type of protocal such as TCP and UDP
 
-Quesiton 2
+Question 2
 The client socket sends connection request, whereas the server socket listen for connection request
 Client side usually has arbitrary IP address and port number, whereas the server will have a fixed hostname and port number
 
@@ -18,3 +18,6 @@ We get the client's IP address and port number
 
 Question 5
 It receives b'' indicating that there's no more content to be received
+
+Question 6
+https://github.com/TianxiangR/cmput404-lab02
