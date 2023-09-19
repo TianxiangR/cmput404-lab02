@@ -1,0 +1,20 @@
+Question 1
+socket.socket(family, type)
+family is the address family such as IPv4 and IPv6
+type is the type of protocal such as TCP and UDP
+
+Quesiton 2
+The client socket sends connection request, whereas the server socket listen for connection request
+Client side usually has arbitrary IP address and port number, whereas the server will have a fixed hostname and port number
+
+Question 3
+s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+socket.SOL_SOCKET is a certain level of option
+socket.SO_REUSEADDR means Socket Reuse Address
+Setting the option to be 1 means enabling it. In this case, we allows the reuse of IP and Port.
+
+Question 4
+We get the client's IP address and port number
+
+Question 5
+It receives b'' indicating that there's no more content to be received
